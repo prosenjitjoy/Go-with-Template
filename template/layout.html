@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="bg-gradient-to-r from-gray-200 to-gray-300 ">
+    <nav class="px-8 py-6 flex items-center">
+      <div class="text-4xl pr-8">📷</div>
+      <div class="flex-grow text-center">
+        <a class="text-lg font-semibold hover:text-gray-900 pr-8" href="/">Home</a>
+        <a class="text-lg font-semibold hover:text-gray-900 pr-8" href="/contact">Contact</a>
+        <a class="text-lg font-semibold hover:text-gray-900 pr-8" href="/faq">FAQ</a>
+      </div>
+      <div class="">
+        <a class="pr-4" href="#">Sign in</a>
+        <a class="text-white px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded" href="#">Sign up</a>
+      </div>
+    </nav>
+  </header>
+
+  {{template "page" .}}
+</body>
+
+</html>
